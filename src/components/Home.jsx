@@ -5,7 +5,7 @@ import Balancer from "react-wrap-balancer";
 
 const Home = () => {
   return (
-    <div className=" py-16 ">
+    <div className=" py-16 bg-[url('/BG.svg')]">
       <div className="container flex flex-col justify-center items-center">
         <div className="w-[230px] h-[230px] bg-[#1A1A1A] rounded-full flex justify-center items-center overflow-hidden mb-10">
           <img src={Me} alt="" className="w-[2300px]" />

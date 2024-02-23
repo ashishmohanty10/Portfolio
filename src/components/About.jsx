@@ -5,7 +5,7 @@ import { FaGamepad } from "react-icons/fa";
 import Balancer from "react-wrap-balancer";
 const About = () => {
   return (
-    <div className="container py-16">
+    <div className="container py-16  bg-[url('/BG.svg')]">
       <div className="container flex flex-col justify-center items-center">
         <div className="text-center">
           <h2 className="text-[45px] font-extrabold text-white">ABOUT</h2>
