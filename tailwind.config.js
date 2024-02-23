@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      primaryFont: "Inter",
+    },
     container: {
       center: true,
       padding: {
@@ -14,7 +18,9 @@ export default {
     },
     extend: {
       colors: {
-        bgColor: "#1E1E1E",
+        bgDarkColor: "#1E1E1E",
+        bgLightColor: "hsl(36, 100%, 99%)",
+        DarkgrayishBlue: "hsl(236, 13%, 42%)",
       },
     },
   },

@@ -6,7 +6,7 @@ import About from "./components/About";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Router>
         <Navbar />
 
@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
 };
 
