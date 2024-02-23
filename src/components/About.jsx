@@ -3,10 +3,11 @@ import { GoCodeReview } from "react-icons/go";
 import { IoLogoYoutube } from "react-icons/io5";
 import { FaGamepad } from "react-icons/fa";
 import Balancer from "react-wrap-balancer";
+import Footer from "./Footer";
 const About = () => {
   return (
     <div className=" py-16 ">
-      <div className="container flex flex-col justify-center items-center">
+      <div className="container flex flex-col justify-center items-center mb-10">
         <div className="text-center">
           <h2 className="text-[45px] font-extrabold text-white">ABOUT</h2>
           <p className="bg-gradient-to-r from-[#9C83FF] to-[#FF9051] bg-clip-text text-transparent font-semibold text-lg mb-2">
@@ -39,6 +40,8 @@ const About = () => {
           </Balancer>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

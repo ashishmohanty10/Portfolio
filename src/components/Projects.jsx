@@ -2,12 +2,13 @@ import React from "react";
 import { ProjectsLinks } from "../Link";
 import { Link } from "react-router-dom";
 import Balancer from "react-wrap-balancer";
+import Footer from "./Footer";
 
 const Projects = () => {
   return (
     <div className="py-16  bg-[url('/BG.svg')]">
       <div className="container flex flex-col justify-center items-center">
-        <div className="text-center">
+        <div className="text-center mb-4">
           <h2 className="text-[45px] font-extrabold text-white">Projects</h2>
           <p className="bg-gradient-to-r from-[#9C83FF] to-[#FF9051] bg-clip-text text-transparent font-semibold text-lg mb-4">
             Explore Now

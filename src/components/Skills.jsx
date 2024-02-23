@@ -14,13 +14,13 @@ import { SiAdobephotoshop } from "react-icons/si";
 const Skills = () => {
   return (
     <div className="py-16">
-      <div className="container flex flex-col justify-center items-center">
+      <div className="container flex flex-col justify-center items-center mb-10">
         <h2 className="text-[45px] font-extrabold text-white">SKILLS</h2>
         <p className="bg-gradient-to-r from-[#9C83FF] to-[#FF9051] bg-clip-text text-transparent font-semibold text-lg mb-2">
           Explore Now
         </p>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 mb:4">
           <div>
             <p className="text-base font-medium text-white mb-4">
               Tech Stacks:

@@ -2,6 +2,7 @@ import { useAtom } from "jotai";
 import React from "react";
 import Me from "/Me.png";
 import Balancer from "react-wrap-balancer";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <img src={Me} alt="" className="w-[2300px]" />
         </div>
 
-        <div className="text-center">
+        <div className="text-center mb-4">
           <h2 className="text-4xl font-extrabold text-white ">
             Ashish Mohanty
           </h2>
@@ -24,15 +25,11 @@ const Home = () => {
             dedicated to crafting elegant and user-friendly web applications.
           </Balancer>
 
-          <div className="flex justify-center items-center gap-4">
+          <div>
             <button className="py-3 px-4 rounded-3xl border text-white  text-sm font-bold hover:bg-white hover:text-slate-950 duration-100">
               <a href="./assets/Resume.pdf" download>
                 Download CV
               </a>
-            </button>
-
-            <button className="py-3 px-4 rounded-3xl bg-wihte text-stone-950 bg-white text-sm font-bold hover:bg-opacity-80 duration-100">
-              <a href="mailto:ashishmohaty10@gmail.com">Contact</a>
             </button>
           </div>
         </div>

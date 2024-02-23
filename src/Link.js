@@ -17,6 +17,11 @@ export const Navlinks = [
     href: "/projects",
     title: "Projects",
   },
+
+  {
+    href: "/contact",
+    title: "Contact",
+  },
 ];
 
 export const ProjectsLinks = [
