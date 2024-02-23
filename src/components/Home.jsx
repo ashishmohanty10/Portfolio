@@ -25,14 +25,14 @@ const Home = () => {
           </Balancer>
 
           <div className="flex justify-center items-center gap-4">
-            <button className="py-3 px-4 rounded-3xl border border-white text-white  text-sm font-bold">
+            <button className="py-3 px-4 rounded-3xl border text-white  text-sm font-bold hover:bg-white hover:text-slate-950 duration-100">
               <a href="./assets/Resume.pdf" download>
                 Download CV
               </a>
             </button>
 
-            <button className="py-3 px-4 rounded-3xl bg-wihte text-stone-950 bg-white  text-sm font-bold">
-              Contact
+            <button className="py-3 px-4 rounded-3xl bg-wihte text-stone-950 bg-white text-sm font-bold hover:bg-opacity-80 duration-100">
+              <a href="mailto:ashishmohaty10@gmail.com">Contact</a>
             </button>
           </div>
         </div>

@@ -12,13 +12,13 @@ const Navbar = () => {
     setmenu(!menu);
   };
   return (
-    <div className=" py-5">
+    <div className="py-5">
       <nav className="container ">
         <div className="flex justify-between items-center bg-[#1A1A1A] py-2 px-4 rounded-3xl relative">
           {/* left side */}
           <Link
             to={"/"}
-            className="font-primaryFont text-white  text-2xl font-bold flex justify-between items-center gap-3"
+            className="font-primaryFont text-white  text-2xl font-bold flex justify-between items-center gap-3 hover:text-[#FDB813] duration-150"
           >
             <RiSparkling2Fill />
             <h1>Portfolio</h1>
@@ -39,6 +39,7 @@ const Navbar = () => {
               ))}
             </ul>
 
+            {/* Mobile */}
             <div className="md:hidden ">
               <div
                 className="text-white text-lg font-bold"

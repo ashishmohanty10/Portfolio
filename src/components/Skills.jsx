@@ -10,6 +10,7 @@ import { IoLogoNodejs } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoFigma } from "react-icons/io5";
 import { SiAdobephotoshop } from "react-icons/si";
+
 const Skills = () => {
   return (
     <div className="py-16">

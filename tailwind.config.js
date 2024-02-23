@@ -21,7 +21,7 @@ export default {
         bg: "url('/BG.svg')",
       },
       colors: {
-        bgDarkColor: "#0c0a09",
+        bgDarkColor: "#212121",
       },
     },
   },

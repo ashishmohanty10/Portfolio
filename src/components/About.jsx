@@ -5,7 +5,7 @@ import { FaGamepad } from "react-icons/fa";
 import Balancer from "react-wrap-balancer";
 const About = () => {
   return (
-    <div className="container py-16  bg-[url('/BG.svg')]">
+    <div className=" py-16 ">
       <div className="container flex flex-col justify-center items-center">
         <div className="text-center">
           <h2 className="text-[45px] font-extrabold text-white">ABOUT</h2>
@@ -30,7 +30,7 @@ const About = () => {
             </li>
           </ul>
 
-          <Balancer className="text-base font-medium text-white">
+          <Balancer className="text-base font-medium text-white w-[80%]">
             I am an engineering fresher who has a hunger for learning new
             things. I have explored domains like photoshop, web development , 3D
             rendering and video editing apart from my college studies. Currently
