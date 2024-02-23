@@ -17,10 +17,11 @@ export default {
       },
     },
     extend: {
+      backgroundImage: {
+        bg: "url('/BG.svg')",
+      },
       colors: {
-        bgDarkColor: "#1E1E1E",
-        bgLightColor: "hsl(36, 100%, 99%)",
-        DarkgrayishBlue: "hsl(236, 13%, 42%)",
+        bgDarkColor: "#0c0a09",
       },
     },
   },
