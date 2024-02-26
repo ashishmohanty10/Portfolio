@@ -26,19 +26,19 @@ const Skills = () => {
               Tech Stacks:
             </p>
 
-            <div className="font-medium text-white text-4xl grid md:grid-cols-2 ">
+            <div className="font-medium text-white text-5xl grid md:grid-cols-2 ">
               <div className="flex justify-start items-center gap-5 mb-4 md:mb-0">
-                <FaHtml5 />
-                <FaCss3 />
-                <IoLogoJavascript />
-                <FaReact />
+                <FaHtml5 className="hover:text-orange-500 duration-200" />
+                <FaCss3 className="hover:text-blue-500 duration-200" />
+                <IoLogoJavascript className="hover:text-yellow-400 duration-200" />
+                <FaReact className="hover:text-cyan-400 duration-200" />
               </div>
               <div className="flex justify-start items-center gap-5 mb-4 md:mb-0">
                 <SiExpress />
-                <IoLogoNodejs />
-                <SiTailwindcss />
-                <SiMysql />
-                <SiMongodb />
+                <IoLogoNodejs className="hover:text-green-600 duration-200" />
+                <SiTailwindcss className="hover:text-cyan-400 duration-200" />
+                <SiMysql className="hover:text-blue-700 duration-200" />
+                <SiMongodb className="hover:text-green-500 duration-200" />
               </div>
             </div>
           </div>
@@ -46,9 +46,9 @@ const Skills = () => {
           <div>
             <p className="text-base font-medium text-white mb-4">Others:</p>
 
-            <div className="font-medium text-white text-4xl flex justify-start items-center gap-5">
-              <IoLogoFigma />
-              <SiAdobephotoshop />
+            <div className="font-medium text-white text-5xl flex justify-start items-center gap-5">
+              <IoLogoFigma className="hover:text-purple-500 duration-200" />
+              <SiAdobephotoshop className="hover:text-blue-600 duration-200" />
             </div>
           </div>
         </div>
