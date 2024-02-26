@@ -34,7 +34,7 @@ const Skills = () => {
                 <FaReact className="hover:text-cyan-400 duration-200" />
               </div>
               <div className="flex justify-start items-center gap-5 mb-4 md:mb-0">
-                <SiExpress />
+                <SiExpress className="hover:opacity-80 duration-200" />
                 <IoLogoNodejs className="hover:text-green-600 duration-200" />
                 <SiTailwindcss className="hover:text-cyan-400 duration-200" />
                 <SiMysql className="hover:text-blue-700 duration-200" />
