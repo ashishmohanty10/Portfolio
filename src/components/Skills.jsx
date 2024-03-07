@@ -28,17 +28,35 @@ const Skills = () => {
 
             <div className="font-medium text-white text-5xl grid md:grid-cols-2 ">
               <div className="flex justify-start items-center gap-5 mb-4 md:mb-0">
-                <FaHtml5 className="hover:text-orange-500 duration-200" />
-                <FaCss3 className="hover:text-blue-500 duration-200" />
-                <IoLogoJavascript className="hover:text-yellow-400 duration-200" />
-                <FaReact className="hover:text-cyan-400 duration-200" />
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <FaHtml5 className="group-hover:text-orange-500 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <FaCss3 className="group-hover:text-blue-500 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <IoLogoJavascript className="group-hover:text-yellow-400 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <FaReact className="group-hover:text-cyan-400 duration-200" />
+                </div>
               </div>
               <div className="flex justify-start items-center gap-5 mb-4 md:mb-0">
-                <SiExpress className="hover:opacity-80 duration-200" />
-                <IoLogoNodejs className="hover:text-green-600 duration-200" />
-                <SiTailwindcss className="hover:text-cyan-400 duration-200" />
-                <SiMysql className="hover:text-blue-700 duration-200" />
-                <SiMongodb className="hover:text-green-500 duration-200" />
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <SiExpress className="group-hover:text-black duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <IoLogoNodejs className="group-hover:text-green-600 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <SiTailwindcss className="group-hover:text-cyan-400 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <SiMysql className="group-hover:text-blue-700 duration-200" />
+                </div>
+                <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                  <SiMongodb className="group-hover:text-green-500 duration-200" />
+                </div>
               </div>
             </div>
           </div>
@@ -47,8 +65,12 @@ const Skills = () => {
             <p className="text-base font-medium text-white mb-4">Others:</p>
 
             <div className="font-medium text-white text-5xl flex justify-start items-center gap-5">
-              <IoLogoFigma className="hover:text-purple-500 duration-200" />
-              <SiAdobephotoshop className="hover:text-blue-600 duration-200" />
+              <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                <IoLogoFigma className="group-hover:text-purple-500 duration-200" />
+              </div>
+              <div className="group p-4 rounded-lg hover:bg-slate-200 backdrop:blur-lg ">
+                <SiAdobephotoshop className="group-hover:text-blue-600 duration-200" />
+              </div>
             </div>
           </div>
         </div>
