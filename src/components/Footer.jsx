@@ -2,6 +2,7 @@ import React from "react";
 import { BsTwitterX } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -25,6 +26,15 @@ const Footer = () => {
           <button className="font-medium text-white text-2xl hover:text-opacity-80">
             <a href="https://twitter.com/tw_sk1llz" target="_blank">
               <BsTwitterX />
+            </a>
+          </button>
+
+          <button className="font-medium text-white text-2xl hover:text-opacity-80">
+            <a
+              href="https://youtube.com/@codewithAshish.?si=SBMPEi680Wtrnz73"
+              target="_blank"
+            >
+              <FaYoutube />
             </a>
           </button>
         </div>
