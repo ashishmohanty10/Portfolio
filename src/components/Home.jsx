@@ -7,12 +7,12 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div className=" py-16 bg-[url('/BG.svg')]">
-      <div className="container flex flex-col justify-center items-center">
+      <div className="container flex flex-col items-center justify-center">
         <div className="w-[230px] h-[230px] bg-[#1A1A1A] rounded-full flex justify-center items-center overflow-hidden mb-10">
           <img src={Me} alt="" className="w-[2300px]" />
         </div>
 
-        <div className="text-center mb-4">
+        <div className="mb-4 text-center">
           <h2 className="text-4xl font-extrabold text-white ">
             Ashish Mohanty
           </h2>
@@ -26,8 +26,8 @@ const Home = () => {
           </Balancer>
 
           <div>
-            <button className="py-3 px-4 rounded-3xl border text-white  text-sm font-bold hover:bg-white hover:text-slate-950 duration-100">
-              <a href="./assets/Resume.pdf" download>
+            <button className="px-4 py-3 text-sm font-bold text-white duration-100 border rounded-3xl hover:bg-white hover:text-slate-950">
+              <a href="./assets/AshishMohanty-Resume.pdf" download>
                 Download CV
               </a>
             </button>
