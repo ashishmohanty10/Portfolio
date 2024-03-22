@@ -31,7 +31,7 @@ const Home = () => {
                 href="https://drive.google.com/file/d/1uvDhtWTfltMAdrGAKD9WMGBAXeMtvCtU/view?usp=sharing"
                 target="_blank"
               >
-                Download CV
+                Have a look at my CV
               </a>
             </button>
           </div>
