@@ -27,7 +27,10 @@ const Home = () => {
 
           <div>
             <button className="px-4 py-3 text-sm font-bold text-white duration-100 border rounded-3xl hover:bg-white hover:text-slate-950">
-              <a href="./assets/Resume.pdf" download>
+              <a
+                href="https://drive.google.com/file/d/1uvDhtWTfltMAdrGAKD9WMGBAXeMtvCtU/view?usp=sharing"
+                target="_blank"
+              >
                 Download CV
               </a>
             </button>
