@@ -1,6 +1,6 @@
 import { useAtom } from "jotai";
 import React from "react";
-import Me from "/Me.png";
+import Me from "/Me.webp";
 import Balancer from "react-wrap-balancer";
 import Footer from "./Footer";
 
